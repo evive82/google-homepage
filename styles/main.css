@@ -152,13 +152,12 @@ a {
 }
 
 #buttons {
-    width: 320px;
+    width: 330px;
     height: 46px;
     margin: 28px auto 0px auto;
     padding-left: auto;
     padding-right: auto;
     position: relative;
-    right: 6px;
 }
 
 .btn {
