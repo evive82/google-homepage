@@ -1,0 +1,66 @@
+body {
+    background-color: #fff;
+    color: #222;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#header {
+    height: 48px;
+    padding-top: 15px;
+}
+
+#header-links {
+    padding: 15px;
+    opacity: 0.75;
+}
+
+#aboutlink {
+    padding-left: 2px;
+    padding-right: 15px;
+}
+
+#opt-links {
+    float: right;
+    padding: 0px 15px 0px 15px;
+}
+
+#links {
+    position: relative;
+    right: 34px;
+    bottom: 19px;
+}
+
+#icons {
+    position: relative;
+    right: 6px;
+    bottom: 8px;
+}
+
+#gmaillink {
+    padding-right: 11px;
+}
+
+#menu-icon {
+    position: relative;
+    right: 13px;
+    bottom: 4px;
+    opacity: 0.55;
+}
+
+#ave-icon {
+    border-radius: 50%;
+}
+
+#body {
+    display: block;
+}
+
+.search-box {
+    width: 560px;
+}
