@@ -63,7 +63,7 @@ a {
 
 #logo-block {
     margin-top: 47px;
-    height: 233px;
+    height: 156px;
     width: 272px;
     margin-left: auto;
     margin-right: auto;
@@ -77,6 +77,76 @@ a {
     margin-right: auto;
 }
 
-.search-box {
-    width: 560px;
+#search {
+    position: relative;
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50px;
+}
+
+#search-box {
+    width: 584px;
+    height: 46px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 50px;
+}
+
+#search-box:hover {
+    box-shadow: 0px 0px 5px 0px rgb(154, 160, 166, 0.5);
+}
+
+#search-input {
+    width: 527px;
+    height: 34px;
+    padding-left: 24px;
+    border: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 19px;
+    top: 5px;
+    z-index: 3;
+}
+
+#search-ico {
+    position: absolute;
+    color: rgb(154, 160, 166);
+    font-size: 15px;
+    left: 15px;
+    top: 15px;
+    z-index: 4;
+}
+
+#voice-search {
+    display: flex;
+    height: 46px;
+    width: 46px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    position: relative;
+    float: right;
+    bottom: 46px;
+    right: 68px;
+}
+
+#voice-search:hover {
+    box-shadow: 0px 0px 5px 0px rgb(154, 160, 166, 0.5);
+}
+
+#mic-ico {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 11px;
+    left: 11px;
 }
