@@ -150,3 +150,45 @@ a {
     top: 11px;
     left: 11px;
 }
+
+#buttons {
+    width: 320px;
+    height: 46px;
+    margin: 28px auto 0px auto;
+    padding-left: auto;
+    padding-right: auto;
+    position: relative;
+    right: 6px;
+}
+
+.btn {
+    min-width: 54px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 27px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#search-btn {
+    background-color: rgb(26, 115, 232);
+    border: 1px solid rgb(26, 115, 232);
+    color: #fff;
+}
+
+#search-btn:hover {
+    background-color: #1564CB;
+}
+
+#lucky-btn {
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    color: rgb(26, 115, 232);
+}
+
+#lucky-btn:hover {
+    background-color: #E6EEF8;
+}
